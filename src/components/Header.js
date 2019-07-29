@@ -5,7 +5,7 @@ const Home = () => (
     <div>
      <h1>Portfolio</h1>
       <NavLink exact to="/" activeClassName="selected">Home</NavLink>
-      <NavLink to="/portfolio" activeClassName="selected">Portfolio</NavLink>
+      <NavLink exact to="/portfolio" activeClassName="selected">Portfolio</NavLink>
       <NavLink to="/contact" activeClassName="selected">Contact</NavLink>
     </div>
 );
